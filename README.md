@@ -27,9 +27,9 @@ PySimpleGUIライブラリを使用して，使いやすいインタフェース
 - 要素数を入力する: 入力ボックスに要素数を入力します．  
   ![element](a40b9f51-080e-49d6-8770-8545a9774a81)
 - 実行ボタンを押す: 実行ボタンを押してソートを開始します．  
-  ![button](https://github.com/user-attachments/assets/eb62f2dd-c110-49ed-9423-22ce5a183d1d)
+  ![button](eb62f2dd-c110-49ed-9423-22ce5a183d1d)
 - 結果を確認する: 各ソートアルゴリズムの処理時間が表示されます．  
-  ![result](https://github.com/user-attachments/assets/f93c7846-7983-4bfd-b3d3-9673fb9aafae)
+  ![result](f93c7846-7983-4bfd-b3d3-9673fb9aafae)
 
 ## コードの説明
 ### メインコード
