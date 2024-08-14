@@ -4,7 +4,7 @@ import random
 
 #表示部
 layout = [[sg.T("ソートの処理時間比較")], 
-          [sg.T("要素数"), sg.I("100", k = "n")], 
+          [sg.T("要素数を入力してください"), sg.I("100", k = "n")], 
           [sg.B("実行", k = "btn")], 
           [sg.T("Arr is Good")],
           [sg.T(k = "insertion_sort_good")], 
