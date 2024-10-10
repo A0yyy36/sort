@@ -25,11 +25,11 @@ PySimpleGUIライブラリを使用して，使いやすいインタフェース
 
 ### 使用方法
 - 要素数を入力する: 入力ボックスに要素数を入力します．  
-  ![element](a40b9f51-080e-49d6-8770-8545a9774a81.png)
+  ![element](img/element.png)
 - 実行ボタンを押す: 実行ボタンを押してソートを開始します．  
-  ![button](eb62f2dd-c110-49ed-9423-22ce5a183d1d.png)
+  ![execute](img/execute.png)
 - 結果を確認する: 各ソートアルゴリズムの処理時間が表示されます．  
-  ![result](f93c7846-7983-4bfd-b3d3-9673fb9aafae.png)
+  ![result](img/result.png)
 
 ## コードの説明
 ### メインコード
