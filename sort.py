@@ -3,21 +3,23 @@ import time
 import random
 
 #表示部
-layout = [[sg.T("ソートの処理時間比較")], 
-          [sg.T("要素数を入力してください"), sg.I("100", k = "n")], 
-          [sg.B("実行", k = "btn")], 
-          [sg.T("Arr is Good")],
-          [sg.T(k = "insertion_sort_good")], 
-          [sg.T(k = "selection_sort_good")], 
-          [sg.T(k = "bubble_sort_good")], 
-          [sg.T(k = "quick_sort_good")], 
-          [sg.T(k = "merge_sort_good")],
-          [sg.T("Arr is Bad")], 
-          [sg.T(k = "insertion_sort_bad")], 
-          [sg.T(k = "selection_sort_bad")], 
-          [sg.T(k = "bubble_sort_bad")], 
-          [sg.T(k = "quick_sort_bad")], 
-          [sg.T(k = "merge_sort_bad")]]
+layout = [
+            [sg.T("ソートの処理時間比較")], 
+            [sg.T("要素数を入力してください"), sg.I("100", k = "n")], 
+            [sg.B("実行", k = "btn")], 
+            [sg.T("Arr is Good")],
+            [sg.T(k = "insertion_sort_good")], 
+            [sg.T(k = "selection_sort_good")], 
+            [sg.T(k = "bubble_sort_good")], 
+            [sg.T(k = "quick_sort_good")], 
+            [sg.T(k = "merge_sort_good")],
+            [sg.T("Arr is Bad")], 
+            [sg.T(k = "insertion_sort_bad")], 
+            [sg.T(k = "selection_sort_bad")], 
+            [sg.T(k = "bubble_sort_bad")], 
+            [sg.T(k = "quick_sort_bad")], 
+            [sg.T(k = "merge_sort_bad")]
+        ]
 win = sg.Window("ソート比較アプリ", layout, 
                 font = (None, 14), size = (500, 500))
 
